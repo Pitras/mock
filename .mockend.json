@@ -12,7 +12,7 @@
     "description": "string",
     "location": "MapLocation",    
     "image": "string",
-    "thumbnail": "string"
+    "thumbnail": "string",
     "map_x": "int",
     "map_x": "int",
   },
@@ -26,9 +26,9 @@
     "email": "string",
     "instagram": "string",
     "image": "string",
-    "connections" : "MapPerson[]"
-    "projects" : "MapProject[]"
-    "thumbnail": "string"
+    "connections" : "MapPerson[]",
+    "projects" : "MapProject[]",
+    "thumbnail": "string",
     "map_x": "int",
     "map_x": "int",
   }
