@@ -1,0 +1,35 @@
+{
+  "MapLocation": {
+    "id": "int",
+    "name": "string",
+    "map_x": "int",
+    "map_x": "int",
+    "file_path": "string"
+  },
+  "MapProject": {
+    "id": "int",
+    "name": "string",
+    "description": "string",
+    "location": "MapLocation",    
+    "image": "string",
+    "thumbnail": "string"
+    "map_x": "int",
+    "map_x": "int",
+  },
+  "MapPerson": {
+    "id": "int",
+    "first_name": "string",
+    "last_name": "string",
+    "position": "string",
+    "location": "MapLocation",    
+    "quote": "string",
+    "email": "string",
+    "instagram": "string",
+    "image": "string",
+    "connections" : "MapPerson[]"
+    "projects" : "MapProject[]"
+    "thumbnail": "string"
+    "map_x": "int",
+    "map_x": "int",
+  }
+}
